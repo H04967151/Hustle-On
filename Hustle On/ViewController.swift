@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         player.play()
         
         UIView.animate(withDuration: 2.3, animations: {
-            self.rocket.frame = CGRect(x: 0, y: 20, width: self.view.frame.width, height: self.view.frame.height - 200)
+            self.rocket.frame = CGRect(x: 0, y: 80, width: self.view.frame.width, height: self.view.frame.height - 100)
         }) { (finished) in
             self.hustleLabel.isHidden = false
             self.onLabel.isHidden = false
